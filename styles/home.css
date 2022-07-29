@@ -1,1 +1,16 @@
 /* add home page styles here */
+.movieBox {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candies-one {
+    display: flex;
+
+}
+

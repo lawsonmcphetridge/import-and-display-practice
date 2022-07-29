@@ -1,16 +1,19 @@
 
 import { videoGames } from './games-array-two.js';
 import { renderCandy } from './candies-one-render.js';
+import { cars } from './cars-array-three.js';
 
 
 
 import { candies } from './candies-array-one.js';
 import { renderGames } from './video-games-render-two.js';
+import { renderCars } from './cars-render-three.js';
 // import functions and grab DOM elements
 
 
 const candiesOne = document.getElementById('candies-one');
 const videoGame = document.getElementById('video-games-two');
+const carsThree = document.getElementById('car-three')
 
 
 for (let candy of candies) {
@@ -26,7 +29,10 @@ for (let game of videoGames) {
   // console.log(game.name);
 }
 
-
+for (let car of cars) {
+  const carItem = renderCars(car);
+  carsThree.append(carItem);
+}
 // initialize global state
 
 // set event listeners 

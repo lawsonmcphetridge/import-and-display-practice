@@ -1,13 +1,9 @@
 export const videoGames = [
-    
-    
     {
         name: 'fortnite',
         game: 'shooter',
         type: 'building',
         pov: 'third-person',
-
-
     },
 
     {
@@ -15,9 +11,17 @@ export const videoGames = [
         game: 'shooter',
         type: 'tactical',
         pov: 'first-person',
-
-    }
-    
-    
-
+    },
+    {
+        name: 'valorant',
+        game: 'shooter',
+        type: 'tactical',
+        pov: 'first-person',
+    },
+    {
+        name: 'valorant',
+        game: 'shooter',
+        type: 'tactical',
+        pov: 'first-person',
+    },
 ];
